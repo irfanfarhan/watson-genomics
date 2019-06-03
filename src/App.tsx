@@ -1,8 +1,8 @@
 import * as React from 'react';
 import './App.scss';
 import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import { Cases, Samples, Reports } from './components/Pages';
-
+import { Samples, Reports } from './components/Pages';
+import Cases from './components/Cases';
 class App extends React.Component {
   public render() {
     return (
