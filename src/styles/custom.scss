@@ -1,0 +1,72 @@
+
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 4vw;
+    .tab-button {
+      float: left;
+      background-color: transparent;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      .list-group .list-group-item {
+        display: block;
+        background-color: inherit;
+        color: white;
+        padding: 1.2vw 1vw;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        outline: none;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 1.3vw;
+        &:hover, &.active {
+          background-color: #3391bd;
+        }
+      }
+    }
+    .tab-content {
+      float: left;
+      padding: 0px 0.9vw;
+      border-left: none;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: white;
+      color: black;
+    }
+  }
+  
+  .navbar.navbar-fixed-top {
+    margin-bottom: 0;
+    min-height: 4vw;
+    background-color: #1c303e;
+    .navbar-menu {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      flex-direction: row;
+      .navbar-header, .logo-head, .navbar-list {
+        width: 33.33%;
+        display: inline-block;
+      }
+      .navbar-header .navbar-brand, .logo-head .navbar-brand, .navbar-list .navbar-brand, .navbar-header .navbar-brand:hover, .logo-head .navbar-brand:hover, .navbar-list .navbar-brand:hover {
+        color: white;
+      }
+      .logo-head {
+        width: 33.33%;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
